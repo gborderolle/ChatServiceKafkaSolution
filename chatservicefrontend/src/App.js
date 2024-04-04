@@ -8,7 +8,7 @@ function App() {
   const [ws, setWs] = useState(null);
 
   useEffect(() => {
-    const newWs = new WebSocket('ws://localhost:5281/ws');
+    const newWs = new WebSocket('wss://localhost:5281/ws');
 
     newWs.onmessage = (event) => {
       // Directamente maneja el mensaje como texto en lugar de parsearlo como JSON
