@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/chatservicefrontend/node_modules
+/chatservicefrontend/.pnp
+/chatservicefrontend/.pnp.js
+
+# testing
+/chatservicefrontend/coverage
+
+# production
+/chatservicefrontend/build
+
+# misc
+/chatservicefrontend/.DS_Store
+/chatservicefrontend/.env.local
+/chatservicefrontend/.env.development.local
+/chatservicefrontend/.env.test.local
+/chatservicefrontend/.env.production.local
+
+/chatservicefrontend/npm-debug.log*
+/chatservicefrontend/yarn-debug.log*
+/chatservicefrontend/yarn-error.log*
+
+.vs/ChatServiceKafkaSolution/FileContentIndex/48800926-a4e1-46f4-b875-e66ff864649d.vsidx
+/.vs
+/ChatServiceBackend/bin
+/ChatServiceBackend/obj
